@@ -1,0 +1,29 @@
+# Sensitive files - NEVER commit these
+*.key
+*.crt
+*.pem
+*.ovpn
+ta.key
+pki/
+easy-rsa/
+clients/*.ovpn
+logs/
+
+# Temporary files
+*.tmp
+*.log
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
+.env
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Runtime files
+*.pid
+*.sock
