@@ -1,4 +1,4 @@
-# OpenVPN Server Automation
+# OpenVPN Server
 
 Automated setup scripts for deploying OpenVPN server with cross-platform client support.
 
@@ -7,10 +7,10 @@ Basically setup your own VPN server.
 ## Quick Start
 
 ```bash
-# For Multipass testing
+# Multipass testing
 make multipass-test
 
-# For production server
+# on the real server
 make install
 make setup-server
 make create-client CLIENT_NAME=myclient
@@ -26,11 +26,5 @@ make create-client CLIENT_NAME=myclient
 - `make status` - Check service status
 - `make logs` - View logs
 - `make clean` - Clean up generated files
-
-## Security
-
-- All sensitive files are in .gitignore
-- Certificates are generated locally
-- No hardcoded secrets
 
 See `docs/SETUP.md` for detailed instructions.
